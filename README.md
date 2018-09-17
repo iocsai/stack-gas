@@ -8,7 +8,7 @@ Az adatgyűjtő által összegyűjtött nyeres adatok feldolgozása, korrekciój
  - Maven 4.0
  - MySQL 10.13
  - Java Swing
- - Apache NetBeans IDE 8.1
+ - NetBeans IDE 8.1
  
 ## Versioning
 
