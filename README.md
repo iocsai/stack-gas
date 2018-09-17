@@ -4,7 +4,7 @@ Az adatgyűjtő által összegyűjtött nyeres adatok feldolgozása, korrekciój
 
 ## Built with
 
- - Java SE JDK 8.1
+ - Java SE JDK 1.8
  - Maven 4.0
  - MySQL 10.13
  - Java Swing
