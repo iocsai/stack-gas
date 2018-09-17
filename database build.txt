@@ -1,0 +1,16 @@
+CREATE SCHEMA `certificates` ;
+
+CREATE TABLE `certificates`.`cal_gas` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `component` VARCHAR(45) NULL,
+  `cal_value` DOUBLE NULL,
+  `uncertanity` INT NULL,
+  `expire_date` DATE NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `certificates`.`cal_gas` (`component`, `cal_value`, `uncertanity`, `expire_date`) VALUES ('CO', '75.6', '2', '2018-03-03');
+INSERT INTO `certificates`.`cal_gas` (`component`, `cal_value`, `uncertanity`, `expire_date`) VALUES ('CO2', '9.41', '2', '2018-03-03');
+INSERT INTO `certificates`.`cal_gas` (`component`, `cal_value`, `uncertanity`, `expire_date`) VALUES ('O2', '8.95', '2', '2018-03-03');
+INSERT INTO `certificates`.`cal_gas` (`component`, `cal_value`, `uncertanity`, `expire_date`) VALUES ('SO2', '281.0', '2', '2018-03-03');
+INSERT INTO `certificates`.`cal_gas` (`component`, `cal_value`, `uncertanity`, `expire_date`) VALUES ('NO', '295.0', '2', '2018-02-16');
+
